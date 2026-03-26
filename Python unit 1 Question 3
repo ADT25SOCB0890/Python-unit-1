@@ -1,0 +1,14 @@
+t1 = (1, 2, 3)
+t2 = (4, 5)
+
+# Access
+print(t1[0])
+
+# Nested tuple
+nested = (t1, t2)
+
+# Repetition
+print(t1 * 2)
+
+# Concatenation
+print(t1 + t2)
