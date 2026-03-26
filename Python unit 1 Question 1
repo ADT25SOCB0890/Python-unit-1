@@ -1,0 +1,18 @@
+lst = [5, 2, 9, 1]
+
+# Access
+print("First element:", lst[0])
+
+# Add
+lst.append(7)
+
+# Remove
+lst.remove(2)
+
+# Sort
+lst.sort()
+
+# Reverse
+lst.reverse()
+
+print("Final list:", lst)
