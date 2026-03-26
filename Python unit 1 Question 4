@@ -1,0 +1,16 @@
+d = {"name": "Prerna", "age": 20}
+
+# Access
+print(d["name"])
+
+# Update
+d["age"] = 21
+
+# Remove
+d.pop("age")
+
+# Merge
+d2 = {"city": "Pune"}
+d.update(d2)
+
+print(d)
